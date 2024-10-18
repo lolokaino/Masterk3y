@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Chat em Tempo Real</title>
+</head>
+<body>
+    <div class="welcome-container">
+        <img src="download" alt="Imagem de Boas-Vindas" class="welcome-image">
+        <h1>!! Sejam Bem-Vindos !!</h1>
+        <p>Registre-se ou Faça Log-in</p>
+        <div class="login-register">
+            <form action="/login" method="POST">
+                <input type="text" name="username" placeholder="Usuário" required>
+                <input type="password" name="password" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
